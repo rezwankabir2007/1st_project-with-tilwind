@@ -1,12 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nature's platter</title>
+
+    <!-- Tailwind -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+
 </head>
-<body>
-    <h2>Hellow WOrld</h2>
-    
+
+<body class="bg-amber-100">
+    <!-- nav bar now -->
+
+    <nav class="grid grid-cols-3 pt-3 justify-center container mx-auto">
+
+        <div>
+            <img src="./images/nav-logo.png" alt="" class="w-[120px] h-auto">
+
+        </div>
+        <ul class="flex  gap-4  items-center">
+            <li><a href="">Products</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact us</a></li>
+        </ul>
+        <div class="flex  items-center justify-center  gap-4 ">
+            <button class="rounded border border-green-500 font-semibold px-3 py-1">login</button>
+            <button class="rounded text-white font-semibold px-3 py-1 bg-green-500">Register</button>
+        </div>
+
+    </nav>
+
+    <!-- nav bar end -->
+
+    <!-- banner section start -->
+
+    <section class="text-center py-[20px]">
+       
+
+        <div class="max-w-[40% mx-auto]">
+             <h2 class="font-semibold text-4xl mb-4">Freshness <span class="text-green-500 ">You Can <br>
+            Count</span> On, Prices You’ll Love!</h2>
+
+        <p >Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered
+            every day!</p>
+        </div>
+
+        <img src="./images/Hero Section 1.png" alt="" class="mx-auto max-w-[800px]">
+
+    </section>
+
 </body>
+
 </html>
